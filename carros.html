@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros 🏎️</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+     <div id="geral">
+        <header>
+            <h1>Concessionária 🏎️</h1>
+            <p>Os melhores carros te esperam aqui!</p>
+        </header>
+        <main>
+        <div id="cadastro">
+            <h1>Cadastro de carros</h1>
+            <p>Insira as informações necessárias</p>
+            <form action="carros.php" method="post">
+            <div id="campo">
+                <label for="marca">Marca:</label>
+                <input type="text" id="marca" placeholder="Digite aqui a marca do carro" name="marca">
+            </div>
+            <div id="campo">
+                <label for="modelo">Modelo:</label>
+                <input type="text" id="modelo" placeholder="Digite aqui o modelo do carro" name="modelo">
+            </div>
+            <div id="campo">
+                <label for="ano">Ano:</label>
+                <input type="text" id="ano" placeholder="Digite aqui o ano do carro" name="ano">
+            </div>
+            <div id="campo">
+                <label for="cor">Cor:</label>
+                <input type="text" id="cor" placeholder="Digite aqui a cor do carro" name="cor">
+            </div>
+            <div id="campo">
+                <label for="quilometragem">Quilometragem:</label>
+                <input type="text" id="quilometragem" placeholder="Digite aqui a quilometragem do carro" name="quilometragem">
+            </div>
+            <div id="campo">
+                <label for="preco">Preço:</label>
+                <input type="text" id="preco" placeholder="Digite aqui o preço do carro" name="preco">
+            </div>
+            <input type="submit" name="submit" value="Cadastrar">
+            <button type="reset">Limpar 🧹</button>
+            <button type="submit"name="voltar"> ◀️ Voltar </button>
+            <a href="index.html">Voltar para o ínicio 🏠</a>
+            <footer>Concessionária &copy; 2026 - Todos os direitos reservados</footer>
+        </div>
+        </form>
+        </main>
+</body>
+</html>
